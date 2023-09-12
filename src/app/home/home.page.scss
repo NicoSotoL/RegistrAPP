@@ -1,3 +1,9 @@
+ion-header.ion-header {
+  background-color: #0014ee; /* Azul oscuro */
+  text-align: center; /* Centrar el texto en el encabezado */
+  color: #ffffff; /* Color del texto en el encabezado */
+}
+
 #container {
   text-align: center;
 
@@ -24,4 +30,12 @@
 
 #container a {
   text-decoration: none;
+}
+ion-content {
+  background-color: #ffffff; /* Puedes ajustar el color de fondo según tu preferencia */
+}
+
+ion-title {
+  font-size: 24px; /* Tamaño de fuente para el título */
+  font-weight: bold; /* Texto en negrita */
 }
